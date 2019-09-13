@@ -1,0 +1,80 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/madeira"
+            android:id="@+id/chkMadeira"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/piso_albania"
+            android:id="@+id/chkPisoAlbania"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tijolo"
+            android:id="@+id/chkTijolo"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/areia"
+            android:id="@+id/chkAreia"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cabo_de_rede"
+            android:id="@+id/chkCaboDeRede"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coluna_romana"
+            android:id="@+id/chkColunaRomana"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/frete_rapido"
+            android:id="@+id/chkFrete"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/m2"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtM2"
+            android:inputType="numberDecimal"
+            android:text="10"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular"
+            android:onClick="calcular"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTotal"
+                android:textSize="24sp"
+                android:text="@string/zerado"
+                android:textAlignment="center"
+                android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

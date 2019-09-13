@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NAC04</string>
+    <string name="madeira">Madeira</string>
+    <string name="piso_albania">Piso Albania</string>
+    <string name="tijolo">Tijolo</string>
+    <string name="areia">Areia</string>
+    <string name="coluna_romana">Coluna Romana</string>
+    <string name="frete_rapido">Frete Rapido</string>
+    <string name="m2">m2</string>
+    <string name="calcular">Calcular</string>
+    <string name="cabo_de_rede">Cabo de Rede</string>
+    <string name="zerado">R$0.00</string>
+</resources>
