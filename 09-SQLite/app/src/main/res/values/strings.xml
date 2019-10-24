@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exemplo de SQLite</string>
+    <string name="inserir">Inserir</string>
+    <string name="informe_o_nome">Informe o nome:</string>
+    <string name="informe_o_e_mail">Informe o e-mail:</string>
+    <string name="salvar">Salvar</string>
+    <string name="salvo_sucesso">Dados salvo com sucesso!</string>
+    <string name="excluir">Excluir</string>
+    <string name="excluido_com_sucesso">Excluído com sucesso!</string>
+</resources>
